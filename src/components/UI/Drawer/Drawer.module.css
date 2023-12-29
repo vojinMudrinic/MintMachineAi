@@ -1,0 +1,60 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  left: -940px;
+  height: 100%;
+  width: 940px;
+  background-color: #4e4e50;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px;
+  transition: 1s ease;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 2;
+  flex-direction: column;
+}
+
+.responsive {
+  width: 100%;
+}
+
+.drawerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.drawerTitle h1 {
+  flex: 1;
+  text-align: center;
+  color: #6f2232;
+}
+
+.drawer svg {
+  fill: #6f2232;
+  cursor: pointer;
+}
+
+.active {
+  left: 0;
+}
+
+.shortDescription {
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.howItWorks {
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.howItWorks ul li {
+  margin: 10px 0;
+}
