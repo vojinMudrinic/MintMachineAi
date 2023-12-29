@@ -5,7 +5,7 @@ MintMachine is a decentralized application that allows you to generate art with 
 
 ## How to start the project
 
-1. Inside the "ai-nft" directory run "npm install" in terminal
+1. Inside the root directory run "npm install" in terminal
 2. In same directory create a .env file and copy the content from .env.example.
 3. Install the [Metamask](https://metamask.io/) browser extension.
 4. In Metamask test networks, select Sepolia.
